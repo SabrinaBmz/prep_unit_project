@@ -6,9 +6,9 @@ def convert_to_floats(rows):
 
     # create a a result list ( later to be converted to np array matrix)
     result = []
-    # To-Do Loop through the list and convert row by row
+    # Loop through the list and convert row by row
     # a loop should be written 
-
+    for row in rows:
        value = np.asarray(row)
        value = value.astype(np.float)
 

@@ -2,8 +2,8 @@ from scipy.optimize import curve_fit
 
 def set_objective(x, a, b):
     """ return the objective function """
-    #To-Do set the objective equation
-    pass
+    # set the objective equation
+    y = a * x + b
 
 def get_result( x, y):
     """Return optimal values for a and b for the equation y = a*x+b """
